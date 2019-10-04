@@ -1,0 +1,45 @@
+.service-section {
+  height: 1000px;
+  background: red;
+  .service-block {
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    background: silver;
+    .service-head {
+      height: 250px;
+      width: 600px;
+      margin: auto;
+      background: yellow;
+      text-align: center;
+      h1 {
+        margin: 0;
+        padding: 115px 0 15px 0;
+        font-size: 40px;
+        font-family: 'Livvic', sans-serif;
+        font-weight: normal;
+        color: black;
+      }
+
+      p {
+        margin: 0;
+        font-size: 15px;
+        font-family: 'Arimo', sans-serif;
+        color: black;
+        line-height: 1.5;
+        opacity: 0.5;
+      }
+    }
+    .list-block {
+      height: 550px;
+      background: blueviolet;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 30px;
+      .list {
+        background: yellowgreen;
+      }
+    }
+  }
+}
