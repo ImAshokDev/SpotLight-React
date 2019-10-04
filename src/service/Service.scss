@@ -1,15 +1,13 @@
 .service-section {
-  height: 800px;
+  height: 750px;
   .service-block {
-    height: 800px;
+    height: 750px;
     width: 1200px;
     margin: auto;
-
     .list-block {
       margin: 40px auto 0 auto;
       width: 1120px;
       height: 400px;
-
       display: grid;
       grid-column-gap: 20px;
       grid-row-gap: 50px;
