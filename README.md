@@ -1,1 +1,1 @@
-# SpotLight site in React
+# SPOT LIGHT site using React
