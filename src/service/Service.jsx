@@ -1,6 +1,7 @@
 import React from 'react';
 import './Service.scss';
 import List from './List';
+import HeaderBlock from '../HeaderBlock';
 
 const Service = () => (
   <div className="service-section">
@@ -10,18 +11,12 @@ const Service = () => (
 
 const ServiceBlock = () => (
   <div className="service-block">
-    <ServiceHead />
+    <HeaderBlock
+      h="Our Services"
+      p="   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
+    risus vitae massa semper aliquam quis mattis quam."
+    />
     <ListBlock />
-  </div>
-);
-
-const ServiceHead = () => (
-  <div className="service-head">
-    <h1>Our Services</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget
-      risus vitae massa semper aliquam quis mattis quam.
-    </p>
   </div>
 );
 
