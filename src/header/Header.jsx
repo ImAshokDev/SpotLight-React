@@ -5,7 +5,7 @@ import Button from '../Button';
 const Header = ({ bg }) => (
   <div className="header-section " style={{ backgroundImage: `url(${bg})` }}>
     <Head />
-    <div className="content">
+    <div className="text">
       <h1>beauty spa</h1>
       <p>
         Lorem ipsum dolor sit ametcursus magna vel ipsum dolor sit amet
