@@ -32,11 +32,31 @@ const ListBlock = () => (
       h="Aroma Therapy"
       p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
     />
-    <List />
-    <List />
-    <List />
-    <List />
-    <List />
+    <List
+      i={<i className="fas fa-briefcase" />}
+      h="Body Spa"
+      p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
+    />
+    <List
+      i={<i className="fas fa-pencil-alt" />}
+      h="Expert Hair Spa"
+      p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
+    />
+    <List
+      i={<i className="far fa-sun" />}
+      h=" Massage"
+      p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
+    />
+    <List
+      i={<i className="fas fa-volume-up" />}
+      h=" Manicure"
+      p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
+    />
+    <List
+      i={<i className="fas fa-trophy" />}
+      h="Wedding Makeup"
+      p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus."
+    />
   </div>
 );
 export default Service;
