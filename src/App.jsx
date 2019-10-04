@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Header from './header/Header';
 
 const App = () => (
   <div className="spotlight">
-    <p>1</p>
+    <Header />
   </div>
 );
 
