@@ -8,6 +8,7 @@ import Package from './package/Package';
 import Gallery from './gallery/Gallery';
 import Team from './team/Team';
 import Details from './details/Details';
+import Contact from './contact/Contact';
 
 const App = () => (
   <div className="spotlight">
@@ -18,6 +19,7 @@ const App = () => (
     <Gallery />
     <Team />
     <Details />
+    <Contact />
   </div>
 );
 
