@@ -1,0 +1,28 @@
+.details-section {
+  height: 285px;
+  background-color: #000000ed;
+  div {
+    margin: auto;
+    width: 1000px;
+    height: 250px;
+    p {
+      margin: 0;
+      padding: 85px 0 0 0;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Livvic', sans-serif;
+      font-weight: normal;
+      color: white;
+    }
+    h6 {
+      margin: 30px 0;
+      text-align: center;
+      font-size: 14px;
+      font-family: 'Livvic', sans-serif;
+      font-weight: normal;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}
