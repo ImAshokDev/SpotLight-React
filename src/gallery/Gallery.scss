@@ -1,4 +1,25 @@
 .gallery-section {
-  height: 500px;
-  background: red;
+  height: 750px;
+
+  .gallery-block {
+    height: 401px;
+    width: 1160px;
+    margin: 20px auto;
+    background: white;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .img {
+      height: 200px;
+      img {
+        height: 200px;
+        width: 100%;
+      }
+    }
+    .img:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
 }
