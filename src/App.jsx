@@ -6,6 +6,8 @@ import Content from './content/Content';
 import Service from './service/Service';
 import Package from './package/Package';
 import Gallery from './gallery/Gallery';
+import Team from './team/Team';
+import Details from './details/Details';
 
 const App = () => (
   <div className="spotlight">
@@ -14,6 +16,8 @@ const App = () => (
     <Service />
     <Package />
     <Gallery />
+    <Team />
+    <Details />
   </div>
 );
 
