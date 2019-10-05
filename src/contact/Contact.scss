@@ -7,15 +7,17 @@
     text-align: center;
     div {
       input {
-        height: 50px;
-        width: 780px;
+        height: 10px;
+        width: 720px;
+        padding: 20px 30px;
         border: 1px solid #e8e8e8;
         border-radius: 2px;
         margin-bottom: 35px;
+        outline: none;
       }
       input::placeholder {
         margin: 0;
-        padding: 20px 30px;
+
         font-size: 16px;
         font-family: 'Arimo', sans-serif;
         color: black;
@@ -35,6 +37,7 @@
         text-transform: uppercase;
         border: 1px solid #ff0000;
         border-radius: 2px;
+        outline: none;
       }
       button:hover {
         color: #d80606;
@@ -44,14 +47,16 @@
       }
     }
     textarea {
-      height: 150px;
-      width: 780px;
+      height: 110px;
+      width: 720px;
+      padding: 20px 30px;
       border: 1px solid #e8e8e8;
       border-radius: 2px;
+      outline: none;
     }
     textarea::placeholder {
       margin: 0;
-      padding: 20px 30px;
+
       font-size: 16px;
       font-family: 'Arimo', sans-serif;
       color: black;

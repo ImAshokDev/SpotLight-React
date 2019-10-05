@@ -9,6 +9,7 @@ import Gallery from './gallery/Gallery';
 import Team from './team/Team';
 import Details from './details/Details';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 const App = () => (
   <div className="spotlight">
@@ -20,6 +21,7 @@ const App = () => (
     <Team />
     <Details />
     <Contact />
+    <Footer />
   </div>
 );
 
